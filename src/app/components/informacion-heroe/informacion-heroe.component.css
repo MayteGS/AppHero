@@ -1,0 +1,50 @@
+.container {
+    width: 100% !important;
+    height: 89vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    width: 100%;
+    height: 20%;
+}
+
+.titulo h1 {
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    font-size: 70px;
+}
+
+.InformacionHeroe {
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.InformacionHeroe .imagenHeroe {
+    width: 30%;
+    height: 80%;
+}
+
+.InformacionHeroe .imagenHeroe img {
+    width: 100%;
+    height: 100%;
+}
+
+.InformacionHeroe .containerHeroe {
+    width: 70%;
+    padding: 2%;
+    height: 80%;
+}
+
+.InformacionHeroe .containerHeroe img {
+    width: 15%;
+    height: 40%;
+}
+
+.InformacionHeroe .containerHeroe p {
+    font-size: 25px;
+    text-align: justify;
+}

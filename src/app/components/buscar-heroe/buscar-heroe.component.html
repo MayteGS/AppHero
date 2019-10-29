@@ -1,0 +1,14 @@
+<app-loading *ngIf="loading"></app-loading>
+
+<div class="card-columns" *ngIf="!loading">
+
+    <div class="card" *ngFor="let Heroe of HeroesFiltrados">
+        <img [src]="Heroe.img" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{Heroe.nombre}}</h5>
+            <p class="card-text">{{Heroe.bio}}</p>
+            <p class="card-text"><small class="text-muted">Fecha de aparicion:{{Heroe.aparicion}}</small></p>
+            <button type="button" (click)="MandarInformacion(Heroe.id)" name="" id="" class="btn btn-outline-dark btn-lg btn-block">Ver mas...</button>
+        </div>
+    </div>
+</div>
